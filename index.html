@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meals Inspiration</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="nav">
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <a href="#">About Us</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+        </div>
+        <div class="menu">
+            <button class="openbtn" onclick="openNav()">☰</button>
+        </div>
+        <div class="signIn">
+            <a href="#signIn">Sign in</a>
+            <a href="#newMember">Become A Member</a>
+        </div>
+    </div>
+
+    <div class="main-container">
+        <div class="meal-h1">
+            <h1>Get Meal Inspiration and Recipes</h1>
+        </div>
+
+        <div class="first-container">
+            <input id="foodSearch" type="text" placeholder="Enter a meal">
+            <button id="btn">Search</button>
+        </div>
+
+        <!-- <div class="home-img">
+            <img src="think.png">
+        </div> -->
+
+        <div class="second-container">
+            <div class="results-h3">
+
+            </div>
+            <div class="results">
+            </div>
+        </div>
+
+        <div class="modal">
+            <span class="close-modal">&times;</span>
+            <div class="modal-content">
+
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
